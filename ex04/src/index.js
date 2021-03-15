@@ -1,8 +1,16 @@
-// Wrote code below this line
+// Write code below this line
 
-function localScope() {}
+var myVariable = "I am hiere";
 
-// Write code above this line
+function localScope() {
+    var myVariable = "I am hiere";
+
+}
+
+// Only change code above this line
+
+localScope();
+console.log(myVariable);
 
 //myVariable not difined outside of localScope
 
