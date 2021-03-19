@@ -1,29 +1,26 @@
-// Wrote code below this line
-function function1() {
-    var myGlobalVariable = "10";
-    if (typeof myGlobalVariable != "undefined") {
-        result += "myGlobalVariable: " + myGlobalVariable;
-    }
-    if (typeof notGlobalVariable != "undefined") {
-        result += "5: " + notGlobalVariable;
-    }
-    console.log(result);
-}
+// Write code below this line
 
+var myGlobalVariable = 10;
+
+function function1() {
+
+    notGlobalVariable = 5;
+}
 
 // Write code above this line
 
 function function2() {
+
     var result = "";
+
     if (typeof myGlobalVariable != "undefined") {
         result += "myGlobalVariable: " + myGlobalVariable;
     }
     if (typeof notGlobalVariable != "undefined") {
-        result += "notGlobalVariable: " + notGlobalVariable;
+        result += " notGlobalVariable: " + notGlobalVariable;
     }
     console.log(result);
 }
-
 function1();
 function2();
 

@@ -1,10 +1,11 @@
-// Wrote code below this line
-
 function reusableFunction() {
-    console.log("Hi", "Padawan!");
-}
 
-reusableFunction("Hi", "Padawan")
+    console.log("Hi Padawan!");
+
+}
+// Write code below this line
+
+reusableFunction();
 
 // Write code above this line
 
